@@ -18,13 +18,11 @@ int max_element(int* arr, int size)
 
 void print_array(int* arr, int size)
 {
-    int arr[] = {3, 1, 4, 1, 5};
-
-    const int max = max_element(arr, 5);
+    const int max = max_element(arr, size);
 
     printf("Array: ");
     int i;
-    for (i = 0; i < 5; ++i) {
+    for (i = 0; i < size; ++i) {
         printf("%d ", arr[i]);
     }
     printf("\n");
